@@ -2,7 +2,7 @@ import React from 'react'
 import Homepage from '../../Pages/Header/Homepage'
 import Hero from '../../Pages/Herosection/Hero'
 import Herosection2 from '../../Pages/Section3/Herosection2'
-import Herosection3 from '../../Pages/Herosection4/herosection3'
+import Herosection3 from '../../Pages/Herosection4/Herosection3'
 
 
 const Mainpage = () => {
