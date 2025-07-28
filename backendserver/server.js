@@ -4,6 +4,7 @@ import "dotenv/config";
 import connectDB from "./config/mongodb.js";
 import connectcloudinary from "./config/cloudinary.js";
 import Mainbannerroutes from "./routes/Mainbannerroutes.js"
+import { emailrouter } from "./routes/emailroutes.js";
 
 
 const app = express();
@@ -18,6 +19,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 
 app.use("/api/hero", Mainbannerroutes)
+app.use("/api/form-inut", emailrouter)
 
 app.get("/user", (req, res) => {
   res.send("API IS WORKING");

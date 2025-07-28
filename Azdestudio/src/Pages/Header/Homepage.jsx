@@ -1,6 +1,6 @@
 import React from "react";
 import "../Header/Home.css"
-import headerlogo from "../../assets/header-logo.jpg"
+import headerlogo from "../../assets/brandlogo.png"
 
 const Homepage = () => {
   return (
