@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "backendserver/index.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "Azdestudio/package.json",
+      "use": "@vercel/static-build"
+    }
+  ],
+  "routes": [
+    { "src": "/api/(.*)", "dest": "backendserver/index.js" },
+    { "src": "/(.*)", "dest": "/Azdestudio/$1" }
+  ]
+}
