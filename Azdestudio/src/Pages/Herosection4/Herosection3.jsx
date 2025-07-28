@@ -1,4 +1,4 @@
-import building from "../../assets/Buildingimage.png"
+import building from "../../assets/buildingimage.png"
 import { FaArrowRight } from 'react-icons/fa';
 import "../Herosection4/Herosection3.css"
 
